@@ -76,7 +76,7 @@ header {
 	border-color: black;
 }
 @media only screen and (max-width: 600px) {
-	nav a {
+	a {
 		height: 10px;
 		width: 10px;
 	}
