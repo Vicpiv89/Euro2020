@@ -1,0 +1,153 @@
+footer {
+	background-image: linear-gradient(180deg, #FFE000, #00A6FF);
+	width: 100%;
+	height: 2%;
+}
+header {
+display: block;
+text-align: center;
+background-image: linear-gradient(180deg, #FFE000, #00A6FF);
+color: black;
+width: 100%;
+padding: 5px;
+}
+h1 img {
+	width: 175px;
+	height: 112px;
+	padding: 1px;
+	border-radius: 5px;
+	margin: auto;
+	border: 3px;
+	display: inline-block;
+}
+nav a {
+	color: black;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px;
+	background-image: linear-gradient(45deg, #D2D2D2, #FFAFAF);
+	width: 10%;
+	height: 10%;
+	text-align: center;
+	display: inline-block;
+	border-color: black;
+	border-width: 3px;
+}
+nav {
+	width: 100%;
+	border: 1px;
+	padding: 5px;
+}
+h1 {
+	color: black;
+	font-size: 40px;
+	padding: 15px;
+	border: 60px;
+	margin: auto;
+	display: inline-block;
+}
+main.center {
+	text-align: center;
+}
+main.historycenter {
+	text-align: center;
+}
+main.leftmain {
+	width: 80%;
+	display: block;
+	color: #363F4D;
+}
+body {
+	background-color: white;
+	color: #303F57;
+}
+div.rightimages img {
+	width: 13%;
+	height: 13%;
+	padding: 0.25%;
+
+}
+div.rightimages {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+table {
+	background-color: white;
+}
+th {
+	color: black;
+}
+td {
+	color: black;
+}
+.active {
+	background-color: black;
+	color: white;
+	background-image: none;
+}
+
+nav a:hover {
+	color: white;
+	font-size: 130%;
+	text-decoration: underline;
+	width: 10%;
+}
+td.first {
+	background-color: gold;
+}
+td.second {
+	background-color: silver;
+}
+td.third {
+	background-color: #CA6800;
+}
+table img {
+	width: 40px;
+	height: 40px;
+}
+h6 {
+	float: left;
+}
+h4.underlineh4 {
+	text-decoration: underline;
+	font-size: 130%;
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+	main {
+		width: 90%;
+		text-align: center;
+		float: center;
+		margin: auto;
+	}
+	div.rightimages {
+		width: 100%;
+	}
+	div.rightimages img {
+		width: 30%;
+		height: 30%;
+	}
+	h4.underlineh4 {
+		float: center;
+		margin: auto;
+	}
+	nav {
+		width: 100%;
+	}
+	nav a {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	h1 {
+		font-size: 200%;
+	}
+	h6 {
+		text-align: center;
+		margin: auto;
+	}
+	nav a:hover {
+		width: 90%;
+	}
+}
